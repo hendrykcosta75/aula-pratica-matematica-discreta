@@ -53,24 +53,20 @@ gcc -std=c11 -Wall -Wextra -O2 -o q10 questao10_trc_n_congruencias.c
 
 ### Exemplos
 
+As entradas de teste ficam em [`exemplos/`](exemplos/), um arquivo por questão:
+
 ```bash
-printf '17\n'                          | ./q1    # 17 eh primo.
-./q2                                            # lista primos por 60 segundos
-printf '12\n'                          | ./q3    # Fatores primos: 2 x 2 x 3
-printf '12 18\n'                       | ./q4    # MDC = 6 / MMC = 36
-printf '48 18\n'                       | ./q5    # MDC(48,18) = 6
-printf '12 18\n'                       | ./q6    # MDC = 6, s = -1, t = 1
-printf '3 7\n'                         | ./q7    # 5
-printf '4 6 10\n'                      | ./q8    # Solucao: x = 4 / Quantidade de solucoes: 2
-printf '2 3\n3 5\n2 7\n'               | ./q9    # x = 23 (mod 105)
-printf '5\n2 3\n3 5\n2 7\n1 11\n4 13\n' | ./q10  # x = 3488 (mod 15015)
+./q1  < exemplos/entrada01.txt   # 17 eh primo.
+./q2                             # lista primos por 60 segundos
+./q3  < exemplos/entrada03.txt   # Fatores primos: 2 x 2 x 2 x 3 x 3 x 5
+./q4  < exemplos/entrada04.txt   # MDC = 6 / MMC = 36
+./q5  < exemplos/entrada05.txt   # MDC(48,18) = 6
+./q6  < exemplos/entrada06.txt   # MDC = 6, s = -1, t = 1
+./q7  < exemplos/entrada07.txt   # 5
+./q8  < exemplos/entrada08.txt   # Solucao: x = 4 / Quantidade de solucoes: 2
+./q9  < exemplos/entrada09.txt   # x = 23 (mod 105)
+./q10 < exemplos/entrada10.txt   # x = 3488 (mod 15015)
 ```
-
-## Observações
-
-- As questões 9 e 10 seguem o padrão recursivo: sem `for`/`while`, sem `void`, sem ponteiros e sem variáveis globais, com leitura por `input()` e nomes em português.
-- A questão 10 aceita módulos não coprimos (usa o mmc) e informa quando o sistema não tem solução.
-- A questão 2 guarda apenas os primos até 1 milhão, que bastam para testar candidatos menores que 10¹², e usa os 60 segundos completos.
 
 ## Como contribuir
 
