@@ -1,0 +1,23 @@
+# Binários gerados na compilação
+q1
+q2
+q3
+q4
+q5
+q6
+q7
+q8
+q9
+q10
+
+questao01_primo
+questao02_primos_60s
+questao03_fatores_primos
+questao04_mdc_mmc
+questao9_trc_tres_congruencias
+questao10_trc_n_congruencias
+
+# Objetos e artefatos
+*.o
+*.out
+a.out
