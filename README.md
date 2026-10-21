@@ -28,9 +28,9 @@ A lista tem 10 questões de programação, todas concluídas. Cada integrante fi
 | 3  | Decompor um inteiro em fatores primos            | `questao03_fatores_primos.c`        | Artur    | Concluída  |
 | 4  | mdc e mmc a partir dos fatores primos            | `questao04_mdc_mmc.c`               | Arthur   | Concluída  |
 | 5  | mdc pelo Algoritmo de Euclides                   | `questao05_mdc_euclides.c`          | Arthur   | Concluída  |
-| 6  | Coeficientes `s` e `t` de `mdc(a,b) = s·a + t·b` | `questao06_coeficientes.c`          | Equipe   | Concluída  |
-| 7  | Inverso de `a` módulo `b`                        | `questao07_inverso_modular.c`       | Equipe   | Concluída  |
-| 8  | Solução de `ax ≡ b (mod m)`                      | `questao08_congruencia_linear.c`    | Equipe   | Concluída  |
+| 6  | Coeficientes `s` e `t` de `mdc(a,b) = s·a + t·b` | `questao06_coeficientes.c`          | Kalyl    | Concluída  |
+| 7  | Inverso de `a` módulo `b`                        | `questao07_inverso_modular.c`       | Filipe   | Concluída  |
+| 8  | Solução de `ax ≡ b (mod m)`                      | `questao08_congruencia_linear.c`    | Kalyl    | Concluída  |
 | 9  | TCR com três congruências                        | `questao9_trc_tres_congruencias.c`  | Hendryk  | Concluída  |
 | 10 | TCR generalizado para `n` congruências           | `questao10_trc_n_congruencias.c`    | Hendryk  | Concluída  |
 
